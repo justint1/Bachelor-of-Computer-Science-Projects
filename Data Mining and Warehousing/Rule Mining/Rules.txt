@@ -1,0 +1,287 @@
+1. User Input
+Support=0.1
+Confidence=0.1
+
+2. Rules
+Rule #1: {Humidity=normal}=>{Outlook=rain}
+(Support=0.21, Confidence=0.43)
+
+Rule #2: {Outlook=rain}=>{Humidity=normal}
+(Support=0.21, Confidence=0.6)
+
+Rule #3: {Humidity=normal}=>{Outlook=overcast}
+(Support=0.14, Confidence=0.29)
+
+Rule #4: {Outlook=overcast}=>{Humidity=normal}
+(Support=0.14, Confidence=0.5)
+
+Rule #5: {Humidity=normal}=>{Outlook=sunny}
+(Support=0.14, Confidence=0.29)
+
+Rule #6: {Outlook=sunny}=>{Humidity=normal}
+(Support=0.14, Confidence=0.4)
+
+Rule #7: {Temperature=cool}=>{Humidity=normal}
+(Support=0.29, Confidence=1.0)
+
+Rule #8: {Humidity=normal}=>{Temperature=cool}
+(Support=0.29, Confidence=0.57)
+
+Rule #9: {Temperature=cool}=>{Outlook=rain}
+(Support=0.14, Confidence=0.5)
+
+Rule #10: {Outlook=rain}=>{Temperature=cool}
+(Support=0.14, Confidence=0.4)
+
+Rule #11: {Temperature=mild}=>{Humidity=normal}
+(Support=0.14, Confidence=0.33)
+
+Rule #12: {Humidity=normal}=>{Temperature=mild}
+(Support=0.14, Confidence=0.29)
+
+Rule #13: {Temperature=mild}=>{Outlook=rain}
+(Support=0.21, Confidence=0.5)
+
+Rule #14: {Outlook=rain}=>{Temperature=mild}
+(Support=0.21, Confidence=0.6)
+
+Rule #15: {Temperature=mild}=>{Outlook=sunny}
+(Support=0.14, Confidence=0.33)
+
+Rule #16: {Outlook=sunny}=>{Temperature=mild}
+(Support=0.14, Confidence=0.4)
+
+Rule #17: {PlayTennis=P}=>{Humidity=normal}
+(Support=0.43, Confidence=0.67)
+
+Rule #18: {Humidity=normal}=>{PlayTennis=P}
+(Support=0.43, Confidence=0.86)
+
+Rule #19: {PlayTennis=P}=>{Temperature=cool}
+(Support=0.21, Confidence=0.33)
+
+Rule #20: {Temperature=cool}=>{PlayTennis=P}
+(Support=0.21, Confidence=0.75)
+
+Rule #21: {PlayTennis=P}=>{Temperature=mild}
+(Support=0.29, Confidence=0.44)
+
+Rule #22: {Temperature=mild}=>{PlayTennis=P}
+(Support=0.29, Confidence=0.67)
+
+Rule #23: {PlayTennis=P}=>{Outlook=rain}
+(Support=0.21, Confidence=0.33)
+
+Rule #24: {Outlook=rain}=>{PlayTennis=P}
+(Support=0.21, Confidence=0.6)
+
+Rule #25: {PlayTennis=P}=>{Outlook=overcast}
+(Support=0.29, Confidence=0.44)
+
+Rule #26: {Outlook=overcast}=>{PlayTennis=P}
+(Support=0.29, Confidence=1.0)
+
+Rule #27: {PlayTennis=P}=>{Windy=TRUE}
+(Support=0.21, Confidence=0.33)
+
+Rule #28: {Windy=TRUE}=>{PlayTennis=P}
+(Support=0.21, Confidence=0.5)
+
+Rule #29: {PlayTennis=P}=>{Humidity=high}
+(Support=0.21, Confidence=0.33)
+
+Rule #30: {Humidity=high}=>{PlayTennis=P}
+(Support=0.21, Confidence=0.43)
+
+Rule #31: {PlayTennis=P}=>{Temperature=hot}
+(Support=0.14, Confidence=0.22)
+
+Rule #32: {Temperature=hot}=>{PlayTennis=P}
+(Support=0.14, Confidence=0.5)
+
+Rule #33: {PlayTennis=P}=>{Outlook=sunny}
+(Support=0.14, Confidence=0.22)
+
+Rule #34: {Outlook=sunny}=>{PlayTennis=P}
+(Support=0.14, Confidence=0.4)
+
+Rule #35: {Windy=TRUE}=>{Humidity=normal}
+(Support=0.21, Confidence=0.5)
+
+Rule #36: {Humidity=normal}=>{Windy=TRUE}
+(Support=0.21, Confidence=0.43)
+
+Rule #37: {Windy=TRUE}=>{Temperature=cool}
+(Support=0.14, Confidence=0.33)
+
+Rule #38: {Temperature=cool}=>{Windy=TRUE}
+(Support=0.14, Confidence=0.5)
+
+Rule #39: {Windy=TRUE}=>{Temperature=mild}
+(Support=0.21, Confidence=0.5)
+
+Rule #40: {Temperature=mild}=>{Windy=TRUE}
+(Support=0.21, Confidence=0.5)
+
+Rule #41: {Windy=TRUE}=>{Outlook=rain}
+(Support=0.14, Confidence=0.33)
+
+Rule #42: {Outlook=rain}=>{Windy=TRUE}
+(Support=0.14, Confidence=0.4)
+
+Rule #43: {Windy=TRUE}=>{Outlook=overcast}
+(Support=0.14, Confidence=0.33)
+
+Rule #44: {Outlook=overcast}=>{Windy=TRUE}
+(Support=0.14, Confidence=0.5)
+
+Rule #45: {Windy=TRUE}=>{Humidity=high}
+(Support=0.21, Confidence=0.5)
+
+Rule #46: {Humidity=high}=>{Windy=TRUE}
+(Support=0.21, Confidence=0.43)
+
+Rule #47: {Windy=TRUE}=>{Outlook=sunny}
+(Support=0.14, Confidence=0.33)
+
+Rule #48: {Outlook=sunny}=>{Windy=TRUE}
+(Support=0.14, Confidence=0.4)
+
+Rule #49: {PlayTennis=N}=>{Temperature=mild}
+(Support=0.14, Confidence=0.4)
+
+Rule #50: {Temperature=mild}=>{PlayTennis=N}
+(Support=0.14, Confidence=0.33)
+
+Rule #51: {PlayTennis=N}=>{Outlook=rain}
+(Support=0.14, Confidence=0.4)
+
+Rule #52: {Outlook=rain}=>{PlayTennis=N}
+(Support=0.14, Confidence=0.4)
+
+Rule #53: {PlayTennis=N}=>{Windy=TRUE}
+(Support=0.21, Confidence=0.6)
+
+Rule #54: {Windy=TRUE}=>{PlayTennis=N}
+(Support=0.21, Confidence=0.5)
+
+Rule #55: {PlayTennis=N}=>{Humidity=high}
+(Support=0.29, Confidence=0.8)
+
+Rule #56: {Humidity=high}=>{PlayTennis=N}
+(Support=0.29, Confidence=0.57)
+
+Rule #57: {PlayTennis=N}=>{Temperature=hot}
+(Support=0.14, Confidence=0.4)
+
+Rule #58: {Temperature=hot}=>{PlayTennis=N}
+(Support=0.14, Confidence=0.5)
+
+Rule #59: {PlayTennis=N}=>{Outlook=sunny}
+(Support=0.21, Confidence=0.6)
+
+Rule #60: {Outlook=sunny}=>{PlayTennis=N}
+(Support=0.21, Confidence=0.6)
+
+Rule #61: {Windy=FALSE}=>{Humidity=normal}
+(Support=0.29, Confidence=0.5)
+
+Rule #62: {Humidity=normal}=>{Windy=FALSE}
+(Support=0.29, Confidence=0.57)
+
+Rule #63: {Windy=FALSE}=>{Temperature=cool}
+(Support=0.14, Confidence=0.25)
+
+Rule #64: {Temperature=cool}=>{Windy=FALSE}
+(Support=0.14, Confidence=0.5)
+
+Rule #65: {Windy=FALSE}=>{Temperature=mild}
+(Support=0.21, Confidence=0.38)
+
+Rule #66: {Temperature=mild}=>{Windy=FALSE}
+(Support=0.21, Confidence=0.5)
+
+Rule #67: {Windy=FALSE}=>{Outlook=rain}
+(Support=0.21, Confidence=0.38)
+
+Rule #68: {Outlook=rain}=>{Windy=FALSE}
+(Support=0.21, Confidence=0.6)
+
+Rule #69: {Windy=FALSE}=>{PlayTennis=P}
+(Support=0.43, Confidence=0.75)
+
+Rule #70: {PlayTennis=P}=>{Windy=FALSE}
+(Support=0.43, Confidence=0.67)
+
+Rule #71: {Windy=FALSE}=>{Outlook=overcast}
+(Support=0.14, Confidence=0.25)
+
+Rule #72: {Outlook=overcast}=>{Windy=FALSE}
+(Support=0.14, Confidence=0.5)
+
+Rule #73: {Windy=FALSE}=>{PlayTennis=N}
+(Support=0.14, Confidence=0.25)
+
+Rule #74: {PlayTennis=N}=>{Windy=FALSE}
+(Support=0.14, Confidence=0.4)
+
+Rule #75: {Windy=FALSE}=>{Humidity=high}
+(Support=0.29, Confidence=0.5)
+
+Rule #76: {Humidity=high}=>{Windy=FALSE}
+(Support=0.29, Confidence=0.57)
+
+Rule #77: {Windy=FALSE}=>{Temperature=hot}
+(Support=0.21, Confidence=0.38)
+
+Rule #78: {Temperature=hot}=>{Windy=FALSE}
+(Support=0.21, Confidence=0.75)
+
+Rule #79: {Windy=FALSE}=>{Outlook=sunny}
+(Support=0.21, Confidence=0.38)
+
+Rule #80: {Outlook=sunny}=>{Windy=FALSE}
+(Support=0.21, Confidence=0.6)
+
+Rule #81: {Humidity=high}=>{Temperature=mild}
+(Support=0.29, Confidence=0.57)
+
+Rule #82: {Temperature=mild}=>{Humidity=high}
+(Support=0.29, Confidence=0.67)
+
+Rule #83: {Humidity=high}=>{Outlook=rain}
+(Support=0.14, Confidence=0.29)
+
+Rule #84: {Outlook=rain}=>{Humidity=high}
+(Support=0.14, Confidence=0.4)
+
+Rule #85: {Humidity=high}=>{Outlook=overcast}
+(Support=0.14, Confidence=0.29)
+
+Rule #86: {Outlook=overcast}=>{Humidity=high}
+(Support=0.14, Confidence=0.5)
+
+Rule #87: {Humidity=high}=>{Temperature=hot}
+(Support=0.21, Confidence=0.43)
+
+Rule #88: {Temperature=hot}=>{Humidity=high}
+(Support=0.21, Confidence=0.75)
+
+Rule #89: {Humidity=high}=>{Outlook=sunny}
+(Support=0.21, Confidence=0.43)
+
+Rule #90: {Outlook=sunny}=>{Humidity=high}
+(Support=0.21, Confidence=0.6)
+
+Rule #91: {Temperature=hot}=>{Outlook=overcast}
+(Support=0.14, Confidence=0.5)
+
+Rule #92: {Outlook=overcast}=>{Temperature=hot}
+(Support=0.14, Confidence=0.5)
+
+Rule #93: {Temperature=hot}=>{Outlook=sunny}
+(Support=0.14, Confidence=0.5)
+
+Rule #94: {Outlook=sunny}=>{Temperature=hot}
+(Support=0.14, Confidence=0.4)
+
